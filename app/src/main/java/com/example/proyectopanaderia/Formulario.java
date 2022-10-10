@@ -11,4 +11,9 @@ public class Formulario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario);
     }
+
+
+    public void registrarEstudiante(){
+
+    }
 }

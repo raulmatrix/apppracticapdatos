@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">ProyectoPanaderia</string>
+
+
+    <string-array name="dpto">
+        <item>-Seleccione Departamento-</item>
+        <item>Cochabamba</item>
+        <item>La Paz</item>
+        <item>Santa cruz</item>
+        <item>Oruro</item>
+        <item>Potosi</item>
+        <item>Pando</item>
+        <item>Beni</item>
+    </string-array>
+
+    <string-array name="carrera">
+        <item>-Seleccione Carrera-</item>
+        <item>Sistemas Informaticos</item>
+        <item>Mercadotecnia</item>
+        <item>Secretariado</item>
+        <item>Contaduria</item>
+
+    </string-array>
 </resources>
