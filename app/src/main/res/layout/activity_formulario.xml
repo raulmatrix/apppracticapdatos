@@ -86,7 +86,8 @@
         android:id="@+id/listadpto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/dpto" />
+        android:entries="@array/dpto"
+        android:spinnerMode="dialog" />
 
     <Spinner
         android:id="@+id/listacarrera"

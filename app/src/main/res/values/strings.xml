@@ -21,4 +21,12 @@
         <item>Contaduria</item>
 
     </string-array>
+
+    <string-array name="miscarreras">
+        <item>Sistemas Informaticos</item>
+        <item>Contaduria</item>
+        <item>Marketing</item>
+        <item>Secretariado</item>
+
+    </string-array>
 </resources>

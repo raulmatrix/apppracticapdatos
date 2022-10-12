@@ -13,6 +13,7 @@ public class DatosEstudiante extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos_estudiante);
+        getSupportActionBar().hide();
 
         nombre = (TextView) findViewById(R.id.txtnom2);
         apellido = (TextView)findViewById(R.id.txtape2);
@@ -23,14 +24,13 @@ public class DatosEstudiante extends AppCompatActivity {
         carre = (TextView)findViewById(R.id.txtcarr2);
         codes = (TextView)findViewById(R.id.txtcodes2);
 
+        //Desempaquetar los datos recibidos, deserializar datos
         Bundle objRecibido = getIntent().getExtras();
         Estudiante est = null;
 
-        //if(est!=null){
-
             est = (Estudiante) objRecibido.getSerializable("datosest");
+            //mostrar por pantalla
             nombre.setText(est.getNombre().toString());
-
             apellido.setText(est.getApellido().toString());
             fechanac.setText(est.getFechaNac().toString());
             sexo.setText(est.getSexo().toString());
@@ -39,7 +39,6 @@ public class DatosEstudiante extends AppCompatActivity {
             carre.setText(est.getCarrera().toString());
             codes.setText(est.getCodEst().toString());
 
-        //}
 
     }
 }
